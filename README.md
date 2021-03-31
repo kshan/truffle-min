@@ -7,8 +7,13 @@ A Script for minimizing truffle json artifact.
 
 
 ## Usage
+Install jq
 
-Copy truffle-min.sh to your Truffle project dir, Then run:
+```
+brew install jq
+```
+
+run:
 
 ```
 ./truffle-min.sh build/contracts
@@ -18,10 +23,17 @@ build/contracts is the artifact dir
 
 
 ## 用法
-拷贝  truffle-min.sh 到 Truffle 项目根目录，再运行：
+安装 jq
+
+```
+brew install jq
+```
+
+运行：
 
 ```
 ./truffle-min.sh build/contracts
 ```
 
+build/contracts 为构建文件目录
 
